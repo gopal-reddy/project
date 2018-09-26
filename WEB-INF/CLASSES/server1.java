@@ -22,20 +22,19 @@ public class server1 extends HttpServlet {
 
       // Actual logic goes here.
       PrintWriter out = response.getWriter();
-  try
-{
-      out.println("hello";)
-Class.forName("com.mysql.jdbc.Driver");
-Connection conn = null;
-conn = DriverManager.getConnection("jdbc:mysql://52.207.248.194:3306/testd","gopal", "gopal");
-System.out.print("Database is connected !");
-conn.close();
-}
-catch(Exception e)
-{
+ // try
+//{
+//Class.forName("com.mysql.jdbc.Driver");
+//Connection conn = null;
+//conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/testtable","root", "");
+//System.out.print("Database is connected !");
+//conn.close();
+//}
+//catch(Exception e)
+//{
 
-      out.println("<h1>" + message + "</h1>");
-}
+//      out.println("<h1>" + message + "</h1>");
+//}
 }
 
    public void destroy() {
